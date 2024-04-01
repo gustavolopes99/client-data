@@ -7,10 +7,10 @@ class Reports():
 
     def generate_report(self):
         self.c = canvas.Canvas("report.pdf")
-        self.codRep = self.codigo_entry.get()
-        self.nameRep = self.nome_entry.get()
-        self.phoneRep = self.telefone_entry.get()
-        self.cityRep = self.cidade_entry.get()
+        self.codRep = self.cod_entry.get()
+        self.nameRep = self.name_entry.get()
+        self.phoneRep = self.phone_entry.get()
+        self.cityRep = self.city_entry.get()
 
         self.c.setFont("Helvetica-Bold", 24)
         self.c.drawString(200, 790, 'Customer File')
